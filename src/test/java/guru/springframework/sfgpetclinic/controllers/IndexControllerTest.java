@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-//test test 123
+//test test 123 123
 class IndexControllerTest {
 
     IndexController controller;
@@ -28,13 +28,13 @@ class IndexControllerTest {
                 " Message to build");
     }
 
-    @Test
-    void oupsHandler() {
-        assertThrows(ValueNotFoundException.class, ()-> {
-            controller.oupsHandler();
-        });
-        //assertTrue("notimplemented".equals(controller.oupsHandler()));
-    }
+//    @Test
+//    void oupsHandler() {
+//        assertThrows(ValueNotFoundException.class, ()-> {
+//            controller.oupsHandler();
+//        });
+//        //assertTrue("notimplemented".equals(controller.oupsHandler()));
+//    }
 
     @Test
     void testAssumptionTrue() {
